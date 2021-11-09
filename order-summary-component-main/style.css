@@ -6,8 +6,7 @@ body {
 
 .container {
   margin: 150px auto;
-  border: 1px solid black;
-  width: 400px;
+  width: 375px;
   font-family: 'Red Hat Display', sans-serif;
   background-color: white;
   text-align: center;
@@ -17,17 +16,44 @@ body {
 .plan {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
-  border: 1px solid black;
+  text-align: center;
+  margin: 30px 20px 0px 20px;
+  padding: 0px 15px;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.plan a {
+  margin-top: 20px;
+}
+
+.plan img {
+  width: 50px;
+  height: 50px;
+  margin-top: 11px;
 }
 
 .btn {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
+  padding: 0px 15px;
 }
 
 .hero img {
   width: 100%;
   border-radius: 15px 15px 0 0;
+}
+
+.intro {
+  padding: 0px 15px;
+  color: hsl(0, 0%, 50%);
+}
+
+p span {
+  display: block;
+}
+
+.price {
+  color: hsl(0, 0%, 50%);
 }
