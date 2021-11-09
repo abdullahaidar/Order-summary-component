@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+
+  margin: 0;
+}
+
+.container {
+  margin: 150px auto;
+  width: 375px;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 30px 20px 0px 20px;
+  padding: 0px 15px;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.plan a {
+  margin-top: 20px;
+}
+
+.plan img {
+  width: 50px;
+  height: 50px;
+  margin-top: 11px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 0px 15px;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.intro {
+  padding: 0px 15px;
+  color: hsl(0, 0%, 50%);
+}
+
+p span {
+  display: block;
+}
+
+.price {
+  color: hsl(0, 0%, 50%);
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  border-radius: 15px;
+  border: none;
+  font-family: 'Red Hat Display', sans-serif;
+
+
+}
+
+button:hover {
+  background-color: hsl(245, 75%, 70%);
+}
+
+.cancel a {
+  color: hsl(0, 0%, 50%);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.cancel a:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url('images/pattern-background-mobile.svg');
+  }
+}
