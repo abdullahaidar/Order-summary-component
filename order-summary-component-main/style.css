@@ -1,12 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: repeat-x;
   background-color: hsl(225, 100%, 94%);
+  margin: 0;
 }
 
 .container {
   margin: 150px auto;
   width: 375px;
+  height: 100%;
   font-family: 'Red Hat Display', sans-serif;
   background-color: white;
   text-align: center;
@@ -56,4 +62,34 @@ p span {
 
 .price {
   color: hsl(0, 0%, 50%);
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+button:hover {
+  background-color: hsl(245, 75%, 70%);
+}
+
+.cancel a {
+  color: hsl(0, 0%, 50%);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.cancel a:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url('images/pattern-background-mobile.svg');
+  }
 }
