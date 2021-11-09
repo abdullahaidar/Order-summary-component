@@ -6,6 +6,8 @@ body {
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: repeat-x;
   background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+
   margin: 0;
 }
 
@@ -13,7 +15,6 @@ body {
   margin: 150px auto;
   width: 375px;
   height: 100%;
-  font-family: 'Red Hat Display', sans-serif;
   background-color: white;
   text-align: center;
   border-radius: 15px;
@@ -71,6 +72,9 @@ button {
   margin: 0 10px 0 10px;
   border-radius: 15px;
   border: none;
+  font-family: 'Red Hat Display', sans-serif;
+
+
 }
 
 button:hover {
